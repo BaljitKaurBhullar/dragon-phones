@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dragon Phones - Unleash the Ultimate Power</title>
+    <title>Dragon</title>
+
+    <link rel="icon" type="image/png" href="DragonLogo1.png" sizes="32x32">
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -77,14 +80,9 @@
     <header class="sticky top-0 z-50 backdrop-blur-md bg-dragon-darkBg/80 border-b border-dragon-border transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <!-- Logo -->
-            <a href="#" class="flex items-center gap-3 group">
-                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-dragon-red to-dragon-gold flex items-center justify-center glow-red group-hover:scale-105 transition-transform">
-                    <i data-lucide="flame" class="w-6 h-6 text-white animate-pulse"></i>
-                </div>
-                <div class="flex flex-col">
-                    <span class="text-xl font-black tracking-wider uppercase bg-gradient-to-r from-white via-dragon-gold to-dragon-red bg-clip-text text-transparent">DRAGON</span>
-                    <span class="text-[10px] tracking-widest text-zinc-400 uppercase font-semibold">Mobile Innovation</span>
-                </div>
+            <a href="#" class="flex items-center gap-3 group" aria-label="Dragon home">
+                <img src="DragonLogo1.png" alt="Dragon logo" class="w-12 h-12 object-contain rounded-xl drop-shadow-[0_0_16px_rgba(239,68,68,0.35)] transition-transform group-hover:scale-105">
+                <span class="text-xl font-black tracking-wider uppercase bg-gradient-to-r from-white via-dragon-gold to-dragon-red bg-clip-text text-transparent">DRAGON</span>
             </a>
 
             <!-- Desktop Nav Links -->
@@ -186,7 +184,7 @@
                         <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-dragon-red/10 via-transparent to-transparent"></div>
                         
                         <!-- Phone Image Simulation -->
-                        <img src="images/x1pro.jpg" alt="Dragon X1 Pro" class="w-4/5 h-auto object-cover rounded-2xl shadow-2xl group-hover:scale-105 transition-transform duration-700 animate-float">
+                        <img src="x1pro.jpg" alt="Dragon X1 Pro" class="w-4/5 h-auto object-cover rounded-2xl shadow-2xl group-hover:scale-105 transition-transform duration-700 animate-float">
 
                         <!-- Floating Badges -->
                         <div class="absolute top-6 left-6 bg-black/60 backdrop-blur-md border border-dragon-border rounded-xl px-3 py-1.5 flex items-center gap-2 text-xs font-semibold text-dragon-gold">
@@ -280,9 +278,9 @@
                         </tr>
                         <tr>
                             <td class="p-4 sm:p-6"></td>
-                            <td class="p-4 sm:p-6"><button onclick="quickAddToCart('Dragon X1 Pro', 1299, 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=600&auto=format&fit=crop')" class="w-full py-2.5 rounded-lg bg-dragon-red text-white font-semibold text-xs hover:bg-dragon-darkRed transition-all">Add to Cart</button></td>
-                            <td class="p-4 sm:p-6"><button onclick="quickAddToCart('Dragon Fold I', 1599, 'https://images.unsplash.com/photo-1580910051074-3eb694886505?q=80&w=600&auto=format&fit=crop')" class="w-full py-2.5 rounded-lg bg-dragon-red text-white font-semibold text-xs hover:bg-dragon-darkRed transition-all">Add to Cart</button></td>
-                            <td class="p-4 sm:p-6"><button onclick="quickAddToCart('Dragon X1', 899, 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=600&auto=format&fit=crop')" class="w-full py-2.5 rounded-lg bg-dragon-red text-white font-semibold text-xs hover:bg-dragon-darkRed transition-all">Add to Cart</button></td>
+                            <td class="p-4 sm:p-6"><button onclick="quickAddToCart('Dragon X1 Pro', 1299, 'x1pro.jpg')" class="w-full py-2.5 rounded-lg bg-dragon-red text-white font-semibold text-xs hover:bg-dragon-darkRed transition-all">Add to Cart</button></td>
+                            <td class="p-4 sm:p-6"><button onclick="quickAddToCart('Dragon Fold I', 1599, 'fold8.jpg')" class="w-full py-2.5 rounded-lg bg-dragon-red text-white font-semibold text-xs hover:bg-dragon-darkRed transition-all">Add to Cart</button></td>
+                            <td class="p-4 sm:p-6"><button onclick="quickAddToCart('Dragon X1', 899, 'x1.jpg')" class="w-full py-2.5 rounded-lg bg-dragon-red text-white font-semibold text-xs hover:bg-dragon-darkRed transition-all">Add to Cart</button></td>
                         </tr>
                     </tbody>
                 </table>
@@ -388,9 +386,7 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
                 <div class="space-y-4">
                     <div class="flex items-center gap-3">
-                        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-dragon-red to-dragon-gold flex items-center justify-center">
-                            <i data-lucide="flame" class="w-5 h-5 text-white"></i>
-                        </div>
+                        <img src="DragonLogo1.png" alt="Dragon logo" class="w-9 h-9 object-contain rounded-lg drop-shadow-[0_0_10px_rgba(239,68,68,0.25)]">
                         <span class="text-lg font-black tracking-wider uppercase bg-gradient-to-r from-white via-dragon-gold to-dragon-red bg-clip-text text-transparent">DRAGON</span>
                     </div>
                     <p class="text-xs text-zinc-400">Pushing the absolute boundaries of mobile performance, camera tech, and futuristic design.</p>
@@ -464,9 +460,9 @@
                 <div class="p-6 border-t border-dragon-border bg-dragon-darkBg/50 space-y-4">
                     <!-- Promo code -->
                     <div class="flex gap-2">
-                        <input type="text" id="promoInput" placeholder="Promo code (e.g. DRAGON10)" class="bg-dragon-cardBg border border-dragon-border text-xs rounded-lg px-3 py-2 w-full focus:outline-none focus:border-dragon-gold text-zinc-200 uppercase">
+                        <input type="text" id="promoInput" placeholder="Promo code" class="bg-dragon-cardBg border border-dragon-border text-xs rounded-lg px-3 py-2 w-full focus:outline-none focus:border-dragon-gold text-zinc-200 uppercase">
                         <button onclick="applyPromo()" class="px-4 py-2 bg-dragon-cardBg border border-dragon-border hover:border-dragon-gold text-xs font-semibold rounded-lg text-zinc-200 transition-colors">Apply</button>
-                    </div>
+                    </div>x 
 
                     <div class="space-y-1.5 text-sm">
                         <div class="flex justify-between text-zinc-400">
@@ -583,7 +579,7 @@
                 rating: 4.9,
                 reviewsCount: 1420,
                 badge: "Best Seller",
-                image: "images/x1pro.jpg",
+                image: "x1pro.jpg",
                 tagline: "The absolute pinnacle of mobile processing and quantum camera optics.",
                 specs: {
                     processor: "Snapdragon 9 (3nm)",
@@ -603,7 +599,7 @@
                 rating: 4.8,
                 reviewsCount: 890,
                 badge: "Futuristic",
-                image: "images/fold8.jpg",
+                image: "fold8.jpg",
                 tagline: "Unfold a tablet-sized cinematic masterpiece in your palm.",
                 specs: {
                     processor: "Mediatex Dimensity 9000",
@@ -623,7 +619,7 @@
                 rating: 4.7,
                 reviewsCount: 650,
                 badge: "Value Flagship",
-                image: "images/x1.jpg",
+                image: "x1.jpg",
                 tagline: "Pro-tier photography and flagship speed without compromise.",
                 specs: {
                     processor: "Snapdragon 8 Gen 2",
@@ -643,7 +639,7 @@
                 rating: 5,
                 reviewsCount: 1100,
                 badge: "V.I.P",
-                image: "images/dragonx1ultra.jpg",
+                image: "dragonx1ultra.jpg",
                 tagline: "VIP experience for Rich people.",
                 specs: {
                     processor: "Snapdragon 9 Ultra",
@@ -663,7 +659,7 @@
                 rating: 4.1,
                 reviewsCount: 430,
                 badge: "Budget Flagship",
-                image: "images/e1.jpg",
+                image: "e1.jpg",
                 tagline: "Unbeatable performance and battery endurance for everyday warriors.",
                 specs: {
                     processor: "MediaTek Dimensity 6300",
@@ -677,18 +673,35 @@
             },
             {
                 id: 6,
-                name: "Dragon MagPower 100W",
+                name: "Dragon Magpower 100W",
                 category: "accessories",
                 price: 89,
                 rating: 4.8,
                 reviewsCount: 290,
                 badge: "Fast Qi2",
-                image: "https://images.unsplash.com/photo-1609592424164-5807914777d7?q=80&w=600&auto=format&fit=crop",
+                image: "magpower.jpg",
                 tagline: "Magnetic wireless power bank with active cooling fan.",
                 specs: {
                     capacity: "10,000 mAh High Density",
                     output: "100W Max USB-C PD & 15W Qi2 Mag",
                     cooling: "Built-in Micro-Turbine Fan"
+                },
+                colors: ["#18181b", "#ef4444"]
+            },
+            {
+                id: 7,
+                name: "Dragon WindBuds",
+                category: "accessories",
+                price: 149,
+                rating: 4.2,
+                reviewsCount: 400,
+                badge: "New Arrival",
+                image: "windbuds.jpg",
+                tagline: "Premium wireless earbuds with active noise cancellation and ultra-low latency.",
+                specs: {
+                    battery: "30H Total Playtime",
+                    charging: "USB-C Fast Charge",
+                    features: "Active Noise Cancellation, Low Latency Gaming Mode"
                 },
                 colors: ["#18181b", "#ef4444"]
             }
@@ -703,6 +716,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             lucide.createIcons();
             renderProducts('all');
+            renderProducts('accessories');
             updateCartBadge();
         });
 
@@ -761,6 +775,45 @@
                 document.getElementById('accessoriesGrid').innerHTML = html;
             } else {
                 document.getElementById('productGrid').innerHTML = html;
+                if (document.getElementById('accessoriesGrid')) {
+                    document.getElementById('accessoriesGrid').innerHTML = products
+                        .filter(p => p.category === 'accessories')
+                        .map(p => `
+                            <div class="bg-dragon-cardBg border border-dragon-border rounded-3xl p-6 flex flex-col justify-between group hover:border-dragon-red/50 transition-all duration-300">
+                                <div>
+                                    <div class="flex items-center justify-between mb-4">
+                                        <span class="px-3 py-1 rounded-full bg-dragon-darkBg border border-dragon-border text-[10px] font-semibold tracking-wider text-dragon-gold uppercase">${p.badge}</span>
+                                        <div class="flex items-center gap-1 text-xs text-dragon-gold font-medium">
+                                            <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i> ${p.rating} (${p.reviewsCount})
+                                        </div>
+                                    </div>
+                                    <div class="relative overflow-hidden rounded-2xl bg-dragon-darkBg/60 aspect-square mb-6 flex items-center justify-center cursor-pointer" onclick="openProductModal(${p.id})">
+                                        <img src="${p.image}" alt="${p.name}" class="w-4/5 h-auto object-cover rounded-xl group-hover:scale-105 transition-transform duration-500">
+                                        <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                                            <span class="px-4 py-2 bg-dragon-cardBg/90 backdrop-blur-md rounded-xl text-xs font-semibold text-white border border-dragon-border">View Specs & Details</span>
+                                        </div>
+                                    </div>
+                                    <h3 class="font-bold text-lg text-white group-hover:text-dragon-red transition-colors cursor-pointer" onclick="openProductModal(${p.id})">${p.name}</h3>
+                                    <p class="text-xs text-zinc-400 mt-1 line-clamp-2">${p.tagline}</p>
+                                </div>
+                                <div class="pt-6 mt-6 border-t border-dragon-border flex items-center justify-between">
+                                    <div>
+                                        <span class="text-xs text-zinc-500 block">Price</span>
+                                        <span class="text-xl font-extrabold text-white">$${p.price}</span>
+                                    </div>
+                                    <div class="flex gap-2">
+                                        <button onclick="openProductModal(${p.id})" class="p-2.5 rounded-xl bg-dragon-darkBg border border-dragon-border text-zinc-300 hover:text-white hover:border-dragon-gold transition-all">
+                                            <i data-lucide="info" class="w-4 h-4"></i>
+                                        </button>
+                                        <button onclick="addToCart(${p.id})" class="px-4 py-2.5 rounded-xl bg-dragon-red text-white text-xs font-bold shadow-lg shadow-dragon-red/20 hover:bg-dragon-darkRed transition-all flex items-center gap-1.5">
+                                            <i data-lucide="shopping-bag" class="w-4 h-4"></i> Add
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        `)
+                        .join('');
+                }
             }
             lucide.createIcons();
         }
@@ -899,6 +952,12 @@
                 document.getElementById('discountName').innerText = 'DRAGON10 (10% OFF)';
                 renderCartItems();
                 showToast('Promo code DRAGON10 applied successfully!');
+            } else if (code === 'DHRUV40') {
+                discountPercent = 40;
+                activeDiscountCode = 'DHRUV40';
+                document.getElementById('discountName').innerText = 'DHRUV40 (40% OFF)';
+                renderCartItems();
+                showToast('Promo code DHRUV40 applied successfully!');    
             } else {
                 showToast('Invalid promo code.', 'error');
             }
@@ -988,7 +1047,7 @@
             closeCheckoutModal();
             cart = [];
             updateCartBadge();
-            showToast('Order placed successfully! Welcome to the Dragon family.');
+            showToast('Order placed successfully! Your Order will be shipped soon.');
         }
 
         // Toast notification helper
