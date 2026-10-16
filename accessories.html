@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WindBuds | Dragon</title>
+    <link rel="icon" type="image/png" href="DragonLogo1.png" sizes="32x32">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-category="accessories" class="bg-zinc-950 text-zinc-100 antialiased selection:bg-red-500 selection:text-white">
+    <header class="sticky top-0 z-50 border-b border-zinc-800 bg-zinc-950/90 backdrop-blur-md">
+        <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
+            <a href="index.html" class="flex items-center gap-3" aria-label="Dragon home">
+                <img src="DragonLogo1.png" alt="Dragon logo" class="h-12 w-12 rounded-xl object-contain">
+                <span class="text-xl font-black tracking-wider text-white">DRAGON</span>
+            </a>
+            <nav aria-label="Main navigation" class="flex flex-wrap items-center gap-x-6 gap-y-3 text-sm font-medium text-zinc-300">
+                <a href="index.html#home" class="hover:text-red-400">Home</a>
+                <a href="index.html#phones" class="hover:text-red-400">Phones</a>
+                <details class="relative">
+                    <summary class="cursor-pointer list-none hover:text-red-400">Store</summary>
+                    <div class="absolute right-0 z-10 mt-3 w-44 rounded-xl border border-zinc-800 bg-zinc-900 p-2 shadow-xl">
+                        <a href="tablets.html" class="block rounded-lg px-3 py-2 hover:bg-zinc-800 hover:text-red-400">WindPads</a>
+                        <a href="laptops.html" class="block rounded-lg px-3 py-2 hover:bg-zinc-800 hover:text-red-400">SkyBooks</a>
+                        <a href="accessories.html" class="block rounded-lg px-3 py-2 hover:bg-zinc-800 hover:text-red-400">WindBuds</a>
+                    </div>
+                </details>
+                <a href="index.html#specs" class="hover:text-red-400">Compare</a>
+                <a href="index.html#reviews" class="hover:text-red-400">Support</a>
+            </nav>
+        </div>
+    </header>
+    <main class="mx-auto min-h-[calc(100vh-160px)] max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div class="mb-10 max-w-2xl">
+            <span class="text-sm font-semibold uppercase tracking-wider text-amber-400">Explore the store</span>
+            <h1 id="categoryTitle" class="mt-2 text-4xl font-extrabold sm:text-5xl">WindBuds</h1>
+            <p id="categoryDescription" class="mt-4 text-zinc-400"></p>
+        </div>
+        <div id="categoryProducts" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"></div>
+    </main>
+    <footer class="border-t border-zinc-800 px-4 py-6 text-center text-sm text-zinc-500">
+        <a href="index.html" class="hover:text-red-400">Back to Dragon home</a>
+    </footer>
+    <script src="store.js"></script>
+</body>
+</html>
